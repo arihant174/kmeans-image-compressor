@@ -12,7 +12,7 @@ It performs **Color Quantization**, a lossy compression technique that reduces t
 ## Setup & Running
 
 ### Prerequisites
-Make sure you have `numpy`, `matplotlib`, and `pillow` installed:
+`numpy`, `matplotlib`, and `pillow` installed:
 ```bash
 pip install numpy matplotlib pillow
 ```
@@ -27,7 +27,7 @@ pip install numpy matplotlib pillow
    python compressor.py --image sample_image.jpg --k 16
    ```
 
-You will see:
+Result:
 - Iteration progress (until the cluster centers stop moving).
 - A new compressed image saved in your folder.
 - A side-by-side visual comparison PNG.
