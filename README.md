@@ -32,7 +32,4 @@ You will see:
 - A new compressed image saved in your folder.
 - A side-by-side visual comparison PNG.
 
-## Why this is impressive for SWE Interviews:
-1. **No "Black Box" Libraries**: You wrote the math and logic entirely from scratch.
-2. **Vectorization**: The `compute_distances` function uses advanced NumPy vectorization (`||x - c||^2 = ||x||^2 + ||c||^2 - 2(x . c^T)`) to avoid slow `for` loops, proving you understand how to write high-performance Python code.
-3. **Data Structures**: Shows you understand how multi-dimensional arrays work and how memory is shaped and reshaped (e.g., flattening an image tensor to a 2D matrix for clustering).
+
